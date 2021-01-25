@@ -1,0 +1,28 @@
+
+/* HEIGHT MENU */
+#logo, #logo img, nav#main-nav .nav-logo img, .non-overlay .open-nav, .non-overlay:not(.sticky-header) nav#traditional-nav > ul > li > a, .non-overlay #menu-cart i.cart-icon { height: px; line-height: px; }header.sticky-header #logo { max-height: px; } .overlay-bottom:not(.sticky-header) .open-nav, .overlay-bottom:not(.sticky-header) nav#traditional-nav > ul > li > a, .overlay-bottom:not(.sticky-header) #menu-cart i.cart-icon { margin-top: -20px; }.overlay-bottom:not(.sticky-header) nav#traditional-nav ul li .sub-menu, .overlay-bottom:not(.sticky-header) #menu-cart .menu-cart-content { top: px; }header.non-overlay + #page-title, header.non-overlay + #page-body { margin-top: 40px; }
+/* PORTFOLIO STYLING */
+
+			.masonry.masonry-spaced {	
+				width: calc(113% - 10px);		
+				margin-left: 5px;
+				margin-bottom: -5px;
+				}	
+				
+			.masonry-spaced .masonry-item {
+				margin-right: 5px;
+				margin-bottom: 5px;
+				}
+			.portfolio-thumb .imgoverlay:after, .portfolio-carousel-item .imgoverlay:after {background: #ffffff;}
+/* PSEUDO HEADER */
+#pseudo-header { height: 80px; }
+/* COLOR */
+.bordered #bodyborder-top,.bordered #bodyborder-bottom,.bordered #bodyborder-left,.bordered #bodyborder-right {background:#f0f0f0;}@media only screen and (max-width: 640px) { .bordered .sticky-header, .bordered.big-border .sticky-header { background:#f0f0f0; } }
+/* CUSTOM CSS (Theme Options) */
+@media only screen and (max-width: 480px) {
+	#logo img {width: 80px; height: auto;}
+}
+nav#traditional-nav ul li a {
+    font-weight: 600;
+    font-size: 14px;
+}
